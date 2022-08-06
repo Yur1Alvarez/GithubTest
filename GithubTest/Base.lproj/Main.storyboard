@@ -40,10 +40,18 @@
                                 <rect key="frame" x="71" y="545" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lhe-yZ-ji5">
+                                <rect key="frame" x="4" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="yes" smartDashesType="yes" smartInsertDeleteType="yes"/>
+                            </searchBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="estoes" destination="wbo-2B-w5W" id="LCK-0a-LJB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
